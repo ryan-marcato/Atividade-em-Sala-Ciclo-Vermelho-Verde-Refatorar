@@ -24,10 +24,6 @@ Tempo previsto por fase (120 min):
     10 min plano | red: 10 min | green: 10 min (commits red/green até os 25 min)
     | refactor: 50 min | autoavaliação: 10 min | folga: 30 min
 
-Uso de IA: sim - para sugerir os casos de teste, esboçar a estrutura do
-    Observer e revisar a nomenclatura de domínio. Detalhes no fim de vagas.py.
-
-Ajuste de escopo: nenhum (as três variações foram mantidas).
 """
 import pytest
 
