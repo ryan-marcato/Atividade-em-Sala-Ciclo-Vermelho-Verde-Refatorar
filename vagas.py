@@ -106,9 +106,8 @@ class Estacionamento:
         return self._painel.resumo()
 
 
-# =============================================================================
+
 # AUTOAVALIAÇÃO (Passo 3)
-# =============================================================================
 # Critérios atingidos (conferidos com a execução final, ver saida_testes.txt):
 #  1. Testes em arquivo separado (test_vagas.py), 1 teste por variação (CT1-CT3): SIM
 #  2. Três commits, um por fase, com red/green/refactor na mensagem: SIM
@@ -129,9 +128,4 @@ class Estacionamento:
 # notificações (contagem inicial correta e sem duplicar) e escolher a API
 # pública mantida (processar_leitura, resumo_painel, log) para os testes
 # continuarem válidos sem edição.
-#
-# Uso de IA: ajudou a sugerir os casos de teste, a estrutura do Observer e a
-# nomenclatura de domínio. Atrapalhou/exigiu cuidado: o protótipo original
-# (controle_vagas.py) usa random e imprime direto, então a IA tendia a manter
-# esse acoplamento; foi preciso redefinir a leitura do sensor como entrada
-# (bool) para tornar o comportamento testável. [Anexar os links das conversas.]
+
