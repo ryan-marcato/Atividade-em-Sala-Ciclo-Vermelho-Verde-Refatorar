@@ -1,0 +1,11 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/claude/repo/Atividade em Sala - Ciclo Vermelho-Verde-Refatorar
+collecting ... collected 3 items
+
+test_vagas.py::test_ct1_entrada_de_veiculo_ocupa_vaga_e_atualiza_painel_e_log PASSED [ 33%]
+test_vagas.py::test_ct2_saida_de_veiculo_libera_vaga_e_atualiza_painel_e_log PASSED [ 66%]
+test_vagas.py::test_ct3_leitura_repetida_nao_altera_estado_nem_gera_evento PASSED [100%]
+
+============================== 3 passed in 0.01s ===============================
