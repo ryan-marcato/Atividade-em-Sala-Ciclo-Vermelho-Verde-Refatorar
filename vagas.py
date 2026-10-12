@@ -116,14 +116,12 @@ class Estacionamento:
 #  5. Suíte executada após a refatoração, 3 passed, saída em saida_testes.txt: SIM
 # Critérios não atingidos: nenhum. Observação: o tempo por fase não foi
 # cronometrado de forma rigorosa (preencher com os tempos reais).
-#
 # O que mudou entre verde e refatorado: na verde, Estacionamento guardava os
 # status num dicionário e, ao mudar, atualizava log e painel por conta própria.
 # Na refatorada, a mudança de status vive em Vaga (Subject), que notifica
 # PainelDeControle e RegistroDeEventos (Observers). Para ter um novo interessado
 # (ex.: alarme) basta criar outro observador, sem editar Estacionamento. Os
 # testes não precisaram de nenhuma alteração.
-#
 # Parte que deu mais trabalho: fazer o painel acompanhar o estado só por
 # notificações (contagem inicial correta e sem duplicar) e escolher a API
 # pública mantida (processar_leitura, resumo_painel, log) para os testes
